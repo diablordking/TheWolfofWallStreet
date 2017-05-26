@@ -1,0 +1,27 @@
+############################################################
+# Dockerfile to build Python WSGI Application Containers
+# Based on Ubuntu
+############################################################
+
+# Set the base image to Ubuntu
+FROM python:2.7
+
+EXPOSE 8888
+EXPOSE 80
+EXPOSE 9999
+# File Author / Maintainer
+MAINTAINER alp
+
+WORKDIR /code
+
+
+#RUN apt-get update -y && apt-get install git python python-pip -y libxft-dev libfreetype6 libfreetype6-dev
+RUN pip install --upgrade pip
+
+ADD . /code 
+#RUN apt-get install pkg-config -y
+
+RUN pip install -r /code/requirements.txt
+
+
+CMD ["python", "server.py"]

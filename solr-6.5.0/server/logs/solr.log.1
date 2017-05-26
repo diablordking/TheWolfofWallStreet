@@ -1,0 +1,148 @@
+2017-05-22 07:00:10.447 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-05-22 07:00:11.020 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.5.0
+2017-05-22 07:00:11.020 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-05-22 07:00:11.020 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/diablordking/Masaüstü/solr-6.5.0
+2017-05-22 07:00:11.059 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-05-22T07:00:11.021Z
+2017-05-22 07:00:11.059 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-05-22 07:00:11.168 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/diablordking/Masaüstü/solr-6.5.0/server/solr
+2017-05-22 07:00:11.198 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/diablordking/Masaüstü/solr-6.5.0/server/solr/solr.xml
+2017-05-22 07:00:12.417 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-05-22 07:00:12.818 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 4 core definitions underneath /home/diablordking/Masaüstü/solr-6.5.0/server/solr
+2017-05-22 07:00:12.820 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [wolf2, techproducts, wolf, article]
+2017-05-22 07:00:13.080 WARN  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.c.SolrConfig Couldn't add files from /home/diablordking/Masaüstü/solr-6.5.0/contrib/ltr/lib filtered by .*\.jar to classpath: /home/diablordking/Masaüstü/solr-6.5.0/contrib/ltr/lib
+2017-05-22 07:00:13.157 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.SolrResourceLoader [wolf2] Added 51 libs to classloader, from paths: [/home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/clustering/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/extraction/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/langid/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/velocity/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/dist]
+2017-05-22 07:00:13.157 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.SolrResourceLoader [wolf] Added 51 libs to classloader, from paths: [/home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/clustering/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/extraction/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/langid/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/velocity/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/dist]
+2017-05-22 07:00:13.157 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.c.SolrResourceLoader [techproducts] Added 52 libs to classloader, from paths: [/home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/clustering/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/extraction/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/langid/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/velocity/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/dist]
+2017-05-22 07:00:13.438 INFO  (main) [   ] o.e.j.s.Server Started @4505ms
+2017-05-22 07:00:14.600 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-05-22 07:00:14.616 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.0
+2017-05-22 07:00:14.616 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.0
+2017-05-22 07:00:14.616 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.0
+2017-05-22 07:00:14.821 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.s.IndexSchema [wolf2] Schema name=example-data-driven-schema
+2017-05-22 07:00:14.822 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.s.IndexSchema [techproducts] Schema name=example
+2017-05-22 07:00:14.824 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.s.IndexSchema [wolf] Schema name=example-data-driven-schema
+2017-05-22 07:00:15.119 WARN  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2017-05-22 07:00:15.127 WARN  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.WordDelimiterFilterFactory]. Please consult documentation how to replace it accordingly.
+2017-05-22 07:00:15.633 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-05-22 07:00:15.633 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-05-22 07:00:15.647 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+2017-05-22 07:00:15.647 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+2017-05-22 07:00:15.660 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.s.IndexSchema Loaded schema example/1.6 with uniqueid field id
+2017-05-22 07:00:15.661 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.RestManager Added observer of type org.apache.solr.rest.schema.analysis.ManagedStopFilterFactory to existing ManagedResource /schema/analysis/stopwords/english
+2017-05-22 07:00:15.661 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.RestManager Added observer of type org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory to existing ManagedResource /schema/analysis/synonyms/english
+2017-05-22 07:00:15.676 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.CoreContainer Creating SolrCore 'wolf' using configuration from instancedir /home/diablordking/Masaüstü/solr-6.5.0/server/solr/wolf
+2017-05-22 07:00:15.676 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.CoreContainer Creating SolrCore 'wolf2' using configuration from instancedir /home/diablordking/Masaüstü/solr-6.5.0/server/solr/wolf2
+2017-05-22 07:00:15.700 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.c.CoreContainer Creating SolrCore 'techproducts' using configuration from instancedir /home/diablordking/Masaüstü/solr-6.5.0/server/solr/techproducts
+2017-05-22 07:00:15.749 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-05-22 07:00:15.749 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-05-22 07:00:15.749 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-05-22 07:00:15.768 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.SolrCore [[wolf] ] Opening new SolrCore at [/home/diablordking/Masaüstü/solr-6.5.0/server/solr/wolf], dataDir=[/home/diablordking/Masaüstü/solr-6.5.0/server/solr/wolf/data/]
+2017-05-22 07:00:15.768 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.c.SolrCore [[techproducts] ] Opening new SolrCore at [/home/diablordking/Masaüstü/solr-6.5.0/server/solr/techproducts], dataDir=[/home/diablordking/Masaüstü/solr-6.5.0/server/solr/techproducts/data/]
+2017-05-22 07:00:15.768 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.SolrCore [[wolf2] ] Opening new SolrCore at [/home/diablordking/Masaüstü/solr-6.5.0/server/solr/wolf2], dataDir=[/home/diablordking/Masaüstü/solr-6.5.0/server/solr/wolf2/data/]
+2017-05-22 07:00:15.797 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@f0c8a99
+2017-05-22 07:00:15.797 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@f0c8a99
+2017-05-22 07:00:15.797 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@f0c8a99
+2017-05-22 07:00:16.002 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-05-22 07:00:16.002 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-05-22 07:00:16.002 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-05-22 07:00:16.476 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-05-22 07:00:16.476 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-05-22 07:00:16.476 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-05-22 07:00:16.476 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-05-22 07:00:16.477 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-05-22 07:00:16.477 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-05-22 07:00:16.525 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-05-22 07:00:16.525 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-05-22 07:00:16.557 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-05-22 07:00:16.557 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-05-22 07:00:16.623 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-05-22 07:00:16.623 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-05-22 07:00:16.970 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.s.SolrIndexSearcher Opening [Searcher@1f653e78[techproducts] main]
+2017-05-22 07:00:17.012 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/diablordking/Masaüstü/solr-6.5.0/server/solr/techproducts/conf
+2017-05-22 07:00:17.018 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.s.SolrIndexSearcher Opening [Searcher@5b216283[wolf] main]
+2017-05-22 07:00:17.028 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/diablordking/Masaüstü/solr-6.5.0/server/solr/wolf/conf
+2017-05-22 07:00:17.033 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/diablordking/Masaüstü/solr-6.5.0/server/solr/techproducts/conf
+2017-05-22 07:00:17.033 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2017-05-22 07:00:17.034 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/home/diablordking/Masaüstü/solr-6.5.0/server/solr/techproducts/conf
+2017-05-22 07:00:17.034 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+2017-05-22 07:00:17.034 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.s.a.ManagedWordSetResource Loaded 35 words for /schema/analysis/stopwords/english
+2017-05-22 07:00:17.034 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.ManagedResource Notified 2 observers of /schema/analysis/stopwords/english
+2017-05-22 07:00:17.035 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/home/diablordking/Masaüstü/solr-6.5.0/server/solr/techproducts/conf
+2017-05-22 07:00:17.035 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+2017-05-22 07:00:17.046 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.s.a.ManagedSynonymFilterFactory Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+2017-05-22 07:00:17.047 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.r.ManagedResource Notified 2 observers of /schema/analysis/synonyms/english
+2017-05-22 07:00:17.050 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-05-22 07:00:17.050 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-05-22 07:00:17.073 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-05-22 07:00:17.073 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-05-22 07:00:17.092 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.s.SolrIndexSearcher Opening [Searcher@51aacb86[wolf2] main]
+2017-05-22 07:00:17.092 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/diablordking/Masaüstü/solr-6.5.0/server/solr/wolf2/conf
+2017-05-22 07:00:17.093 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-05-22 07:00:17.093 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-05-22 07:00:17.105 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/diablordking/Masaüstü/solr-6.5.0/server/solr/wolf2/conf/elevate.xml
+2017-05-22 07:00:17.105 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/diablordking/Masaüstü/solr-6.5.0/server/solr/wolf/conf/elevate.xml
+2017-05-22 07:00:17.109 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2017-05-22 07:00:17.134 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-05-22 07:00:17.140 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-05-22 07:00:17.140 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-05-22 07:00:17.156 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-05-22 07:00:17.156 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/diablordking/Masaüstü/solr-6.5.0/server/solr/techproducts/conf/elevate.xml
+2017-05-22 07:00:17.168 INFO  (coreLoadExecutor-6-thread-2) [   x:techproducts] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-05-22 07:00:17.188 INFO  (searcherExecutor-8-thread-1-processing-x:wolf) [   x:wolf] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5b216283[wolf] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(6.5.0):C5015)))}
+2017-05-22 07:00:17.188 INFO  (searcherExecutor-8-thread-1-processing-x:wolf) [   x:wolf] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-22 07:00:17.188 INFO  (searcherExecutor-8-thread-1-processing-x:wolf) [   x:wolf] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-05-22 07:00:17.188 INFO  (searcherExecutor-7-thread-1-processing-x:wolf2) [   x:wolf2] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@51aacb86[wolf2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(6.5.0):C7826)))}
+2017-05-22 07:00:17.188 INFO  (searcherExecutor-7-thread-1-processing-x:wolf2) [   x:wolf2] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-22 07:00:17.188 INFO  (searcherExecutor-7-thread-1-processing-x:wolf2) [   x:wolf2] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-05-22 07:00:17.188 INFO  (searcherExecutor-9-thread-1-processing-x:techproducts) [   x:techproducts] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1f653e78[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.0):C32)))}
+2017-05-22 07:00:17.190 INFO  (searcherExecutor-8-thread-1-processing-x:wolf) [   x:wolf] o.a.s.c.SolrCore [wolf] Registered new searcher Searcher@5b216283[wolf] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(6.5.0):C5015)))}
+2017-05-22 07:00:17.191 INFO  (searcherExecutor-7-thread-1-processing-x:wolf2) [   x:wolf2] o.a.s.c.SolrCore [wolf2] Registered new searcher Searcher@51aacb86[wolf2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(6.5.0):C7826)))}
+2017-05-22 07:00:17.286 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader [article] Added 51 libs to classloader, from paths: [/home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/clustering/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/extraction/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/langid/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/contrib/velocity/lib, /home/diablordking/Masa%C3%BCst%C3%BC/solr-6.5.0/dist]
+2017-05-22 07:00:17.287 INFO  (searcherExecutor-9-thread-1-processing-x:techproducts) [   x:techproducts] o.a.s.c.S.Request [techproducts]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=3 status=0 QTime=87
+2017-05-22 07:00:17.311 INFO  (searcherExecutor-9-thread-1-processing-x:techproducts) [   x:techproducts] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-22 07:00:17.311 INFO  (searcherExecutor-9-thread-1-processing-x:techproducts) [   x:techproducts] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-05-22 07:00:17.311 INFO  (searcherExecutor-9-thread-1-processing-x:techproducts) [   x:techproducts] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2017-05-22 07:00:17.313 INFO  (searcherExecutor-9-thread-1-processing-x:techproducts) [   x:techproducts] o.a.s.c.SolrCore [techproducts] Registered new searcher Searcher@1f653e78[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.0):C32)))}
+2017-05-22 07:00:17.315 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.0
+2017-05-22 07:00:17.345 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [article] Schema name=example-data-driven-schema
+2017-05-22 07:00:17.534 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-05-22 07:00:17.555 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'article' using configuration from instancedir /home/diablordking/Masaüstü/solr-6.5.0/server/solr/article
+2017-05-22 07:00:17.555 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-05-22 07:00:17.555 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrCore [[article] ] Opening new SolrCore at [/home/diablordking/Masaüstü/solr-6.5.0/server/solr/article], dataDir=[/home/diablordking/Masaüstü/solr-6.5.0/server/solr/article/data/]
+2017-05-22 07:00:17.555 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@f0c8a99
+2017-05-22 07:00:17.557 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-05-22 07:00:17.593 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-05-22 07:00:17.593 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-05-22 07:00:17.619 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-05-22 07:00:17.619 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-05-22 07:00:17.796 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@19d8f6c7[article] main]
+2017-05-22 07:00:17.797 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/diablordking/Masaüstü/solr-6.5.0/server/solr/article/conf
+2017-05-22 07:00:17.797 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-05-22 07:00:17.797 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-05-22 07:00:17.798 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/diablordking/Masaüstü/solr-6.5.0/server/solr/article/conf/elevate.xml
+2017-05-22 07:00:17.800 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-05-22 07:00:17.801 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@19d8f6c7[article] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.0):C26495)))}
+2017-05-22 07:00:17.801 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-22 07:00:17.801 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-05-22 07:00:17.801 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.SolrCore [article] Registered new searcher Searcher@19d8f6c7[article] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.0):C26495)))}
+2017-05-22 07:00:25.545 INFO  (qtp846063400-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495436425382} status=0 QTime=1
+2017-05-22 07:00:25.655 INFO  (qtp846063400-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495436425383} status=0 QTime=103
+2017-05-22 07:00:25.655 INFO  (qtp846063400-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495436425383} status=0 QTime=111
+2017-05-22 07:00:28.690 INFO  (qtp846063400-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1495436425382} status=0 QTime=0
+2017-05-22 07:00:28.695 INFO  (qtp846063400-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/replication params={wt=json&command=details&_=1495436428681} status=0 QTime=3
+2017-05-22 07:00:28.697 INFO  (qtp846063400-43) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1495436425384&ts=1495436425384} status=503 QTime=1
+2017-05-22 07:00:28.698 INFO  (qtp846063400-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1495436428681} status=0 QTime=6
+2017-05-22 07:00:28.704 INFO  (qtp846063400-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1495436425383} status=0 QTime=13
+2017-05-22 07:00:28.704 INFO  (qtp846063400-44) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/system params={wt=json&_=1495436428681} status=0 QTime=11
+2017-05-22 07:00:39.170 INFO  (qtp846063400-43) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=57
+2017-05-22 07:00:39.170 INFO  (qtp846063400-43) [   x:wolf2] o.a.s.c.PluginBag Going to create a new queryResponseWriter with {type = queryResponseWriter,name = velocity,class = solr.VelocityResponseWriter,attributes = {startup=lazy, name=velocity, class=solr.VelocityResponseWriter},args = {template.base.dir=,solr.resource.loader.enabled=true,params.resource.loader.enabled=false}} 
+2017-05-22 07:28:03.528 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=745962066
+2017-05-22 07:28:03.529 INFO  (coreCloseExecutor-28-thread-1) [   x:techproducts] o.a.s.c.SolrCore [techproducts]  CLOSING SolrCore org.apache.solr.core.SolrCore@436dfcf9
+2017-05-22 07:28:03.529 INFO  (coreCloseExecutor-28-thread-3) [   x:wolf2] o.a.s.c.SolrCore [wolf2]  CLOSING SolrCore org.apache.solr.core.SolrCore@1e5c0c60
+2017-05-22 07:28:03.529 INFO  (coreCloseExecutor-28-thread-2) [   x:wolf] o.a.s.c.SolrCore [wolf]  CLOSING SolrCore org.apache.solr.core.SolrCore@2332061d
+2017-05-22 07:28:03.530 INFO  (coreCloseExecutor-28-thread-4) [   x:article] o.a.s.c.SolrCore [article]  CLOSING SolrCore org.apache.solr.core.SolrCore@52088c2d
+2017-05-22 07:28:04.373 INFO  (coreCloseExecutor-28-thread-2) [   x:wolf] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.wolf
+2017-05-22 07:28:04.373 INFO  (coreCloseExecutor-28-thread-3) [   x:wolf2] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.wolf2
+2017-05-22 07:28:04.375 INFO  (coreCloseExecutor-28-thread-4) [   x:article] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.article
+2017-05-22 07:28:04.375 INFO  (coreCloseExecutor-28-thread-1) [   x:techproducts] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.techproducts
+2017-05-22 07:28:04.376 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.node

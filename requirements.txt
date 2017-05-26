@@ -1,0 +1,8 @@
+tornado
+mpld3
+matplotlib
+pandas
+datetime
+logging
+pandas_datareader
+jinja2

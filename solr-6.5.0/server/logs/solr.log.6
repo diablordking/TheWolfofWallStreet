@@ -1,0 +1,434 @@
+2017-05-11 14:47:07.691 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-05-11 14:47:08.105 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.5.0
+2017-05-11 14:47:08.106 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-05-11 14:47:08.106 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/diablo/Desktop/solr-6.5.0
+2017-05-11 14:47:08.124 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-05-11T14:47:08.108Z
+2017-05-11 14:47:08.125 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2017-05-11 14:47:08.142 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/diablo/Desktop/solr-6.5.0/server/solr
+2017-05-11 14:47:08.148 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/diablo/Desktop/solr-6.5.0/server/solr/solr.xml
+2017-05-11 14:47:08.484 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-05-11 14:47:08.677 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 4 core definitions underneath /home/diablo/Desktop/solr-6.5.0/server/solr
+2017-05-11 14:47:08.679 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [wolf2, article, wolf, techproducts]
+2017-05-11 14:47:08.738 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.SolrResourceLoader [wolf2] Added 51 libs to classloader, from paths: [/home/diablo/Desktop/solr-6.5.0/contrib/clustering/lib, /home/diablo/Desktop/solr-6.5.0/contrib/extraction/lib, /home/diablo/Desktop/solr-6.5.0/contrib/langid/lib, /home/diablo/Desktop/solr-6.5.0/contrib/velocity/lib, /home/diablo/Desktop/solr-6.5.0/dist]
+2017-05-11 14:47:08.738 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.c.SolrResourceLoader [article] Added 51 libs to classloader, from paths: [/home/diablo/Desktop/solr-6.5.0/contrib/clustering/lib, /home/diablo/Desktop/solr-6.5.0/contrib/extraction/lib, /home/diablo/Desktop/solr-6.5.0/contrib/langid/lib, /home/diablo/Desktop/solr-6.5.0/contrib/velocity/lib, /home/diablo/Desktop/solr-6.5.0/dist]
+2017-05-11 14:47:08.738 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.SolrResourceLoader [wolf] Added 51 libs to classloader, from paths: [/home/diablo/Desktop/solr-6.5.0/contrib/clustering/lib, /home/diablo/Desktop/solr-6.5.0/contrib/extraction/lib, /home/diablo/Desktop/solr-6.5.0/contrib/langid/lib, /home/diablo/Desktop/solr-6.5.0/contrib/velocity/lib, /home/diablo/Desktop/solr-6.5.0/dist]
+2017-05-11 14:47:08.775 INFO  (main) [   ] o.e.j.s.Server Started @1402ms
+2017-05-11 14:47:08.876 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.0
+2017-05-11 14:47:08.878 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.0
+2017-05-11 14:47:08.878 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.0
+2017-05-11 14:47:09.103 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.s.IndexSchema [article] Schema name=example-data-driven-schema
+2017-05-11 14:47:09.103 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.s.IndexSchema [wolf] Schema name=example-data-driven-schema
+2017-05-11 14:47:09.316 WARN  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2017-05-11 14:47:09.316 WARN  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2017-05-11 14:47:09.318 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.s.IndexSchema [wolf2] Schema name=example-data-driven-schema
+2017-05-11 14:47:09.325 WARN  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.WordDelimiterFilterFactory]. Please consult documentation how to replace it accordingly.
+2017-05-11 14:47:09.651 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-05-11 14:47:09.651 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-05-11 14:47:09.651 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.s.IndexSchema Loaded schema example-data-driven-schema/1.6 with uniqueid field id
+2017-05-11 14:47:09.688 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.c.CoreContainer Creating SolrCore 'article' using configuration from instancedir /home/diablo/Desktop/solr-6.5.0/server/solr/article
+2017-05-11 14:47:09.688 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.CoreContainer Creating SolrCore 'wolf2' using configuration from instancedir /home/diablo/Desktop/solr-6.5.0/server/solr/wolf2
+2017-05-11 14:47:09.688 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.CoreContainer Creating SolrCore 'wolf' using configuration from instancedir /home/diablo/Desktop/solr-6.5.0/server/solr/wolf
+2017-05-11 14:47:09.713 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-05-11 14:47:09.713 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-05-11 14:47:09.713 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-05-11 14:47:09.718 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.SolrCore [[wolf2] ] Opening new SolrCore at [/home/diablo/Desktop/solr-6.5.0/server/solr/wolf2], dataDir=[/home/diablo/Desktop/solr-6.5.0/server/solr/wolf2/data/]
+2017-05-11 14:47:09.718 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.SolrCore [[wolf] ] Opening new SolrCore at [/home/diablo/Desktop/solr-6.5.0/server/solr/wolf], dataDir=[/home/diablo/Desktop/solr-6.5.0/server/solr/wolf/data/]
+2017-05-11 14:47:09.718 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.c.SolrCore [[article] ] Opening new SolrCore at [/home/diablo/Desktop/solr-6.5.0/server/solr/article], dataDir=[/home/diablo/Desktop/solr-6.5.0/server/solr/article/data/]
+2017-05-11 14:47:09.723 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@38cee291
+2017-05-11 14:47:09.723 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@38cee291
+2017-05-11 14:47:09.723 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@38cee291
+2017-05-11 14:47:09.771 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-05-11 14:47:09.771 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-05-11 14:47:09.772 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-05-11 14:47:10.097 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-05-11 14:47:10.097 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-05-11 14:47:10.097 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-05-11 14:47:10.098 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-05-11 14:47:10.098 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-05-11 14:47:10.098 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-05-11 14:47:10.122 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-05-11 14:47:10.122 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-05-11 14:47:10.122 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-05-11 14:47:10.122 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-05-11 14:47:10.122 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-05-11 14:47:10.122 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-05-11 14:47:10.191 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.s.SolrIndexSearcher Opening [Searcher@6a8e06d1[wolf2] main]
+2017-05-11 14:47:10.191 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.s.SolrIndexSearcher Opening [Searcher@641bdb7[article] main]
+2017-05-11 14:47:10.191 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.s.SolrIndexSearcher Opening [Searcher@6b6c9f29[wolf] main]
+2017-05-11 14:47:10.200 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/diablo/Desktop/solr-6.5.0/server/solr/article/conf
+2017-05-11 14:47:10.200 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/diablo/Desktop/solr-6.5.0/server/solr/wolf2/conf
+2017-05-11 14:47:10.200 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/diablo/Desktop/solr-6.5.0/server/solr/wolf/conf
+2017-05-11 14:47:10.208 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/diablo/Desktop/solr-6.5.0/server/solr/wolf2/conf
+2017-05-11 14:47:10.208 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2017-05-11 14:47:10.213 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-05-11 14:47:10.213 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-05-11 14:47:10.213 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-05-11 14:47:10.220 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-05-11 14:47:10.220 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-05-11 14:47:10.220 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-05-11 14:47:10.223 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/diablo/Desktop/solr-6.5.0/server/solr/article/conf/elevate.xml
+2017-05-11 14:47:10.223 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/diablo/Desktop/solr-6.5.0/server/solr/wolf/conf/elevate.xml
+2017-05-11 14:47:10.223 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/diablo/Desktop/solr-6.5.0/server/solr/wolf2/conf/elevate.xml
+2017-05-11 14:47:10.234 INFO  (coreLoadExecutor-6-thread-3) [   x:wolf] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-05-11 14:47:10.234 INFO  (coreLoadExecutor-6-thread-1) [   x:wolf2] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-05-11 14:47:10.234 INFO  (coreLoadExecutor-6-thread-2) [   x:article] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-05-11 14:47:10.256 INFO  (searcherExecutor-9-thread-1-processing-x:wolf2) [   x:wolf2] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6a8e06d1[wolf2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(6.5.0):C7826)))}
+2017-05-11 14:47:10.256 INFO  (searcherExecutor-9-thread-1-processing-x:wolf2) [   x:wolf2] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-11 14:47:10.257 INFO  (searcherExecutor-9-thread-1-processing-x:wolf2) [   x:wolf2] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-05-11 14:47:10.259 INFO  (searcherExecutor-9-thread-1-processing-x:wolf2) [   x:wolf2] o.a.s.c.SolrCore [wolf2] Registered new searcher Searcher@6a8e06d1[wolf2] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(6.5.0):C7826)))}
+2017-05-11 14:47:10.256 INFO  (searcherExecutor-7-thread-1-processing-x:wolf) [   x:wolf] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6b6c9f29[wolf] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(6.5.0):C5015)))}
+2017-05-11 14:47:10.259 INFO  (searcherExecutor-7-thread-1-processing-x:wolf) [   x:wolf] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-11 14:47:10.259 INFO  (searcherExecutor-7-thread-1-processing-x:wolf) [   x:wolf] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-05-11 14:47:10.261 INFO  (searcherExecutor-7-thread-1-processing-x:wolf) [   x:wolf] o.a.s.c.SolrCore [wolf] Registered new searcher Searcher@6b6c9f29[wolf] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(6.5.0):C5015)))}
+2017-05-11 14:47:10.261 INFO  (searcherExecutor-8-thread-1-processing-x:article) [   x:article] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@641bdb7[article] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.0):C26495)))}
+2017-05-11 14:47:10.261 INFO  (searcherExecutor-8-thread-1-processing-x:article) [   x:article] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-11 14:47:10.261 INFO  (searcherExecutor-8-thread-1-processing-x:article) [   x:article] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-05-11 14:47:10.262 INFO  (searcherExecutor-8-thread-1-processing-x:article) [   x:article] o.a.s.c.SolrCore [article] Registered new searcher Searcher@641bdb7[article] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.0):C26495)))}
+2017-05-11 14:47:10.301 WARN  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrConfig Couldn't add files from /home/diablo/Desktop/solr-6.5.0/contrib/ltr/lib filtered by .*\.jar to classpath: /home/diablo/Desktop/solr-6.5.0/contrib/ltr/lib
+2017-05-11 14:47:10.302 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader [techproducts] Added 52 libs to classloader, from paths: [/home/diablo/Desktop/solr-6.5.0/contrib/clustering/lib, /home/diablo/Desktop/solr-6.5.0/contrib/extraction/lib, /home/diablo/Desktop/solr-6.5.0/contrib/langid/lib, /home/diablo/Desktop/solr-6.5.0/contrib/velocity/lib, /home/diablo/Desktop/solr-6.5.0/dist]
+2017-05-11 14:47:10.328 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-05-11 14:47:10.330 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 6.5.0
+2017-05-11 14:47:10.379 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema [techproducts] Schema name=example
+2017-05-11 14:47:10.697 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+2017-05-11 14:47:10.698 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+2017-05-11 14:47:10.699 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema Loaded schema example/1.6 with uniqueid field id
+2017-05-11 14:47:10.700 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.RestManager Added observer of type org.apache.solr.rest.schema.analysis.ManagedStopFilterFactory to existing ManagedResource /schema/analysis/stopwords/english
+2017-05-11 14:47:10.700 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.RestManager Added observer of type org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory to existing ManagedResource /schema/analysis/synonyms/english
+2017-05-11 14:47:10.729 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.CoreContainer Creating SolrCore 'techproducts' using configuration from instancedir /home/diablo/Desktop/solr-6.5.0/server/solr/techproducts
+2017-05-11 14:47:10.729 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2017-05-11 14:47:10.729 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrCore [[techproducts] ] Opening new SolrCore at [/home/diablo/Desktop/solr-6.5.0/server/solr/techproducts], dataDir=[/home/diablo/Desktop/solr-6.5.0/server/solr/techproducts/data/]
+2017-05-11 14:47:10.729 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.JmxMonitoredMap JMX monitoring is enabled. Adding Solr mbeans to JMX Server: com.sun.jmx.mbeanserver.JmxMBeanServer@38cee291
+2017-05-11 14:47:10.732 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-05-11 14:47:10.782 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-05-11 14:47:10.783 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-05-11 14:47:10.785 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2017-05-11 14:47:10.785 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2017-05-11 14:47:10.800 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.SolrIndexSearcher Opening [Searcher@7a33aa02[techproducts] main]
+2017-05-11 14:47:10.801 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/diablo/Desktop/solr-6.5.0/server/solr/techproducts/conf
+2017-05-11 14:47:10.802 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/diablo/Desktop/solr-6.5.0/server/solr/techproducts/conf
+2017-05-11 14:47:10.802 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2017-05-11 14:47:10.803 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/home/diablo/Desktop/solr-6.5.0/server/solr/techproducts/conf
+2017-05-11 14:47:10.803 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+2017-05-11 14:47:10.803 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.s.a.ManagedWordSetResource Loaded 35 words for /schema/analysis/stopwords/english
+2017-05-11 14:47:10.803 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResource Notified 2 observers of /schema/analysis/stopwords/english
+2017-05-11 14:47:10.804 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/home/diablo/Desktop/solr-6.5.0/server/solr/techproducts/conf
+2017-05-11 14:47:10.804 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+2017-05-11 14:47:10.805 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.s.a.ManagedSynonymFilterFactory Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+2017-05-11 14:47:10.806 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.ManagedResource Notified 2 observers of /schema/analysis/synonyms/english
+2017-05-11 14:47:10.806 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-05-11 14:47:10.807 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-05-11 14:47:10.812 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2017-05-11 14:47:10.815 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-05-11 14:47:10.831 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-05-11 14:47:10.831 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /home/diablo/Desktop/solr-6.5.0/server/solr/techproducts/conf/elevate.xml
+2017-05-11 14:47:10.836 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-05-11 14:47:10.836 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7a33aa02[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.0):C32)))}
+2017-05-11 14:47:10.918 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.S.Request [techproducts]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=3 status=0 QTime=80
+2017-05-11 14:47:10.924 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2017-05-11 14:47:10.924 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-05-11 14:47:10.924 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2017-05-11 14:47:10.925 INFO  (searcherExecutor-22-thread-1) [   ] o.a.s.c.SolrCore [techproducts] Registered new searcher Searcher@7a33aa02[techproducts] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(6.5.0):C32)))}
+2017-05-11 14:47:13.719 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=hg} hits=0 status=0 QTime=22
+2017-05-11 14:47:13.719 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.PluginBag Going to create a new queryResponseWriter with {type = queryResponseWriter,name = velocity,class = solr.VelocityResponseWriter,attributes = {startup=lazy, name=velocity, class=solr.VelocityResponseWriter},args = {template.base.dir=,solr.resource.loader.enabled=true,params.resource.loader.enabled=false}} 
+2017-05-11 14:47:13.855 ERROR (qtp205125520-18) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:47:13.861 ERROR (qtp205125520-18) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:47:13.909 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:13.909 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:13.911 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:47:15.818 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=hg} hits=0 status=0 QTime=6
+2017-05-11 14:47:15.981 ERROR (qtp205125520-18) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:47:16.020 ERROR (qtp205125520-18) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:47:16.096 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:16.098 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:16.099 INFO  (qtp205125520-15) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:47:16.868 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=18
+2017-05-11 14:47:16.884 ERROR (qtp205125520-18) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:47:16.889 ERROR (qtp205125520-18) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:47:16.944 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:16.944 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:16.944 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:47:20.042 INFO  (qtp205125520-17) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=&fq=ticket:"GOOGL"} hits=1499 status=0 QTime=4
+2017-05-11 14:47:20.072 ERROR (qtp205125520-17) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:47:20.077 ERROR (qtp205125520-17) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:47:20.142 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:20.142 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:20.144 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:47:29.631 ERROR (qtp205125520-13) [   x:wolf2] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Missing required parameter: mlt.fl
+	at org.apache.solr.common.params.RequiredSolrParams.getParams(RequiredSolrParams.java:90)
+	at org.apache.solr.handler.MoreLikeThisHandler$MoreLikeThisHelper.<init>(MoreLikeThisHandler.java:308)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.getMoreLikeThese(MoreLikeThisComponent.java:370)
+	at org.apache.solr.handler.component.MoreLikeThisComponent.process(MoreLikeThisComponent.java:126)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:295)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2440)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:723)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:529)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:347)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:298)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-05-11 14:47:29.631 INFO  (qtp205125520-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=id:"4"&mlt=true&fq=ticket:"GOOGL"} hits=1 status=400 QTime=21
+2017-05-11 14:47:29.649 ERROR (qtp205125520-13) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:47:29.651 ERROR (qtp205125520-13) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:47:29.700 INFO  (qtp205125520-17) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:29.702 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:47:29.700 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:34.978 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=id:"4"&fq=ticket:"GOOGL"&fq=story:"normal"} hits=1 status=0 QTime=1
+2017-05-11 14:47:35.004 ERROR (qtp205125520-21) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:47:35.006 ERROR (qtp205125520-21) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:47:35.042 INFO  (qtp205125520-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:35.042 INFO  (qtp205125520-17) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:35.043 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:47:38.414 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={queryOpts=spatial} hits=7826 status=0 QTime=1
+2017-05-11 14:47:38.424 ERROR (qtp205125520-18) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:47:38.427 ERROR (qtp205125520-18) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:47:38.479 INFO  (qtp205125520-15) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:38.480 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:38.480 INFO  (qtp205125520-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:47:39.110 ERROR (qtp205125520-22) [   x:wolf2] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field: "manu_exact"
+	at org.apache.solr.schema.IndexSchema.getField(IndexSchema.java:1239)
+	at org.apache.solr.search.Grouping.addFieldCommand(Grouping.java:151)
+	at org.apache.solr.handler.component.QueryComponent.process(QueryComponent.java:502)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:295)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:173)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2440)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:723)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:529)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:347)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:298)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1691)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017-05-11 14:47:39.112 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={queryOpts=group&group.field=manu_exact&group=true} status=400 QTime=36
+2017-05-11 14:47:39.172 ERROR (qtp205125520-22) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:47:39.177 ERROR (qtp205125520-22) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($field.size()) of '>' operation has null value at VM_global_library.vm[line 82, column 22]
+2017-05-11 14:47:39.181 ERROR (qtp205125520-22) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:47:39.229 INFO  (qtp205125520-17) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:39.229 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:39.230 INFO  (qtp205125520-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:47:41.294 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={queryOpts=spatial} hits=7826 status=0 QTime=1
+2017-05-11 14:47:41.303 ERROR (qtp205125520-21) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:47:41.305 ERROR (qtp205125520-21) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:47:41.366 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:41.367 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:47:41.368 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:48:47.628 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={queryOpts=spatial} hits=7826 status=0 QTime=1
+2017-05-11 14:49:37.068 INFO  (qtp205125520-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1494514176604} status=0 QTime=0
+2017-05-11 14:49:39.233 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1494514176605} status=0 QTime=11
+2017-05-11 14:49:40.170 INFO  (qtp205125520-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1494514176605} status=0 QTime=11
+2017-05-11 14:49:41.292 INFO  (qtp205125520-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1494514176604} status=0 QTime=0
+2017-05-11 14:49:41.295 INFO  (qtp205125520-17) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1494514180156} status=0 QTime=2
+2017-05-11 14:49:41.297 INFO  (qtp205125520-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1494514176605} status=0 QTime=5
+2017-05-11 14:49:41.409 INFO  (qtp205125520-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/replication params={wt=json&command=details&_=1494514180157} status=0 QTime=2
+2017-05-11 14:49:42.396 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/system params={wt=json&_=1494514180157} status=0 QTime=4
+2017-05-11 14:49:42.444 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1494514176605&ts=1494514176605} status=503 QTime=0
+2017-05-11 14:49:44.434 INFO  (qtp205125520-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1494514176604} status=0 QTime=0
+2017-05-11 14:49:44.488 INFO  (qtp205125520-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1494514176605} status=0 QTime=3
+2017-05-11 14:49:44.489 INFO  (qtp205125520-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1494514176605} status=0 QTime=4
+2017-05-11 14:51:20.827 INFO  (qtp205125520-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1494514280600} status=0 QTime=0
+2017-05-11 14:51:20.833 INFO  (qtp205125520-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1494514280601} status=0 QTime=5
+2017-05-11 14:51:20.921 INFO  (qtp205125520-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1494514280601} status=0 QTime=23
+2017-05-11 14:51:28.072 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={queryOpts=spatial} hits=7826 status=0 QTime=2
+2017-05-11 14:51:28.468 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.tx3-tag-cloud.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:51:28.468 INFO  (qtp205125520-15) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/dropit.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:51:28.471 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:51:29.160 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/globe_256.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:51:29.316 INFO  (qtp205125520-17) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/france_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:51:29.316 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/germany_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:51:29.317 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/english_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:51:40.951 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fd&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=6
+2017-05-11 14:51:41.157 INFO  (qtp205125520-15) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fds&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=0
+2017-05-11 14:51:41.209 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fds&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=0
+2017-05-11 14:51:41.268 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fdsf&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=1
+2017-05-11 14:51:43.631 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fds&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=1
+2017-05-11 14:51:43.810 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fd&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=0
+2017-05-11 14:51:43.960 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=f&v.template=results&type=all&v.layout.enabled=false&?=} hits=4 status=0 QTime=16
+2017-05-11 14:51:44.117 INFO  (qtp205125520-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=&v.template=results&type=all&v.layout.enabled=false&?=} hits=7826 status=0 QTime=1
+2017-05-11 14:51:44.244 INFO  (qtp205125520-17) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=&v.template=results&type=all&v.layout.enabled=false&?=} hits=7826 status=0 QTime=1
+2017-05-11 14:51:45.149 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=a&v.template=results&type=all&v.layout.enabled=false&?=} hits=4411 status=0 QTime=13
+2017-05-11 14:51:45.292 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=ap&v.template=results&type=all&v.layout.enabled=false&?=} hits=1 status=0 QTime=1
+2017-05-11 14:51:45.447 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=app&v.template=results&type=all&v.layout.enabled=false&?=} hits=206 status=0 QTime=1
+2017-05-11 14:51:46.374 INFO  (qtp205125520-45) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=appl&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=1
+2017-05-11 14:51:46.648 INFO  (qtp205125520-46) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=apple&v.template=results&type=all&v.layout.enabled=false&?=} hits=5864 status=0 QTime=4
+2017-05-11 14:52:14.983 INFO  (qtp205125520-47) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=8
+2017-05-11 14:52:15.200 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:52:15.200 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.tx3-tag-cloud.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:52:15.200 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/dropit.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:52:16.500 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/globe_256.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:52:16.501 INFO  (qtp205125520-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/france_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:52:16.501 INFO  (qtp205125520-45) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/germany_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:52:16.501 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/english_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:54:12.531 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=0
+2017-05-11 14:54:12.590 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.tx3-tag-cloud.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:54:12.591 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/dropit.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:54:12.597 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:54:12.670 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/globe_256.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:54:12.671 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/france_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:54:12.675 INFO  (qtp205125520-47) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/english_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:54:12.675 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/germany_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:54:13.912 INFO  (qtp205125520-45) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=0
+2017-05-11 14:54:13.966 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.tx3-tag-cloud.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:54:13.966 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/dropit.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:54:13.968 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:54:14.050 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/france_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:54:14.050 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/germany_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:54:14.053 INFO  (qtp205125520-45) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/english_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 14:54:14.053 INFO  (qtp205125520-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/globe_256.png&contentType=image/png} status=0 QTime=2
+2017-05-11 14:54:16.220 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fd&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=0
+2017-05-11 14:54:16.360 INFO  (qtp205125520-47) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fd&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=1
+2017-05-11 14:54:17.487 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fddf&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=1
+2017-05-11 14:54:17.553 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fddf&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=0
+2017-05-11 14:54:22.480 INFO  (qtp205125520-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=&v.template=results&type=all&v.layout.enabled=false&?=} hits=7826 status=0 QTime=1
+2017-05-11 14:56:30.131 INFO  (qtp205125520-22) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=h&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=1
+2017-05-11 14:56:30.473 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=hh&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=0
+2017-05-11 14:56:31.807 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=hhf&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=1
+2017-05-11 14:56:32.092 INFO  (qtp205125520-13) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=hhfg&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=1
+2017-05-11 14:56:34.585 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=&v.template=results&type=all&v.layout.enabled=false&?=} hits=7826 status=0 QTime=0
+2017-05-11 14:58:45.796 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=1
+2017-05-11 14:58:45.807 ERROR (qtp205125520-19) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:58:45.808 ERROR (qtp205125520-19) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:58:45.932 INFO  (qtp205125520-19) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:58:45.932 INFO  (qtp205125520-45) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:58:45.933 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:59:17.921 INFO  (qtp205125520-50) [   x:wolf2] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /terms,class = solr.SearchHandler,attributes = {startup=lazy, name=/terms, class=solr.SearchHandler},args = {defaults={terms=true,distrib=false},components=[terms]}} 
+2017-05-11 14:59:17.922 INFO  (qtp205125520-50) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/terms params={q=fdf&terms.prefix=fdf&v.template=suggest&terms.fl=name&limit=10&terms.sort=count&wt=velocity&timestamp=1494514757907} status=0 QTime=0
+2017-05-11 14:59:18.991 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=fdf} hits=0 status=0 QTime=1
+2017-05-11 14:59:18.998 ERROR (qtp205125520-20) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:59:18.999 ERROR (qtp205125520-20) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:59:19.121 INFO  (qtp205125520-21) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:59:19.122 INFO  (qtp205125520-50) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 14:59:19.122 INFO  (qtp205125520-47) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:59:25.727 INFO  (qtp205125520-50) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=apple} hits=5864 status=0 QTime=1
+2017-05-11 14:59:25.734 ERROR (qtp205125520-50) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 14:59:25.735 ERROR (qtp205125520-50) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 14:59:26.030 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:59:26.030 INFO  (qtp205125520-45) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 14:59:26.046 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:00:35.485 INFO  (qtp205125520-20) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=apple} hits=5864 status=0 QTime=0
+2017-05-11 15:00:35.495 ERROR (qtp205125520-20) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 15:00:35.496 ERROR (qtp205125520-20) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 15:00:35.663 INFO  (qtp205125520-49) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 15:00:35.688 INFO  (qtp205125520-48) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:00:35.688 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 15:00:37.064 INFO  (qtp205125520-50) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=apple} hits=5864 status=0 QTime=1
+2017-05-11 15:00:37.070 ERROR (qtp205125520-50) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 15:00:37.071 ERROR (qtp205125520-50) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 15:00:37.227 INFO  (qtp205125520-56) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 15:00:37.249 INFO  (qtp205125520-50) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 15:00:37.249 INFO  (qtp205125520-45) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:06:48.775 INFO  (qtp205125520-53) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=1
+2017-05-11 15:06:48.784 ERROR (qtp205125520-53) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 15:06:48.786 ERROR (qtp205125520-53) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 15:06:48.965 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 15:06:48.967 INFO  (qtp205125520-54) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 15:06:48.967 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:09:26.469 INFO  (qtp205125520-50) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=0
+2017-05-11 15:09:26.535 INFO  (qtp205125520-57) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.tx3-tag-cloud.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:09:26.537 INFO  (qtp205125520-57) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/dropit.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:09:26.560 INFO  (qtp205125520-55) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:09:26.610 INFO  (qtp205125520-58) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/globe_256.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:09:26.619 INFO  (qtp205125520-50) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/germany_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:09:26.619 INFO  (qtp205125520-54) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/english_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:09:26.620 INFO  (qtp205125520-55) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/france_640.png&contentType=image/png} status=0 QTime=1
+2017-05-11 15:09:29.085 INFO  (qtp205125520-57) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=d&v.template=results&type=all&v.layout.enabled=false&?=} hits=15 status=0 QTime=1
+2017-05-11 15:09:30.053 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=dd&v.template=results&type=all&v.layout.enabled=false&?=} hits=0 status=0 QTime=0
+2017-05-11 15:09:31.701 INFO  (qtp205125520-50) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=d&v.template=results&type=all&v.layout.enabled=false&?=} hits=15 status=0 QTime=0
+2017-05-11 15:09:31.971 INFO  (qtp205125520-57) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=&v.template=results&type=all&v.layout.enabled=false&?=} hits=7826 status=0 QTime=0
+2017-05-11 15:09:32.122 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=&v.template=results&type=all&v.layout.enabled=false&?=} hits=7826 status=0 QTime=0
+2017-05-11 15:09:32.188 INFO  (qtp205125520-58) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=&v.template=results&type=all&v.layout.enabled=false&?=} hits=7826 status=0 QTime=0
+2017-05-11 15:09:48.819 INFO  (qtp205125520-58) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=&fq=ticket:"GOOGL"&type=all} hits=1499 status=0 QTime=1
+2017-05-11 15:09:48.825 ERROR (qtp205125520-58) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($list.size($p)) of '>' operation has null value at _macros.vm[line 24, column 63]
+2017-05-11 15:09:48.876 INFO  (qtp205125520-53) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.tx3-tag-cloud.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:09:48.876 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/dropit.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:09:48.876 INFO  (qtp205125520-56) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:09:48.955 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/globe_256.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:09:48.956 INFO  (qtp205125520-50) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/france_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:09:48.981 INFO  (qtp205125520-58) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/germany_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:09:48.981 INFO  (qtp205125520-53) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/english_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:22:07.440 INFO  (qtp205125520-56) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={q=&fq=ticket:"GOOGL"&type=all} hits=1499 status=0 QTime=1
+2017-05-11 15:22:07.447 ERROR (qtp205125520-56) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($list.size($p)) of '>' operation has null value at _macros.vm[line 24, column 63]
+2017-05-11 15:22:07.488 INFO  (qtp205125520-55) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.tx3-tag-cloud.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:22:07.488 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/dropit.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:22:07.488 INFO  (qtp205125520-54) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:22:07.529 INFO  (qtp205125520-55) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/france_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:22:07.530 INFO  (qtp205125520-58) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/germany_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:22:07.530 INFO  (qtp205125520-18) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/english_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:22:07.532 INFO  (qtp205125520-53) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/globe_256.png&contentType=image/png} status=0 QTime=1
+2017-05-11 15:22:15.515 INFO  (qtp205125520-54) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=10
+2017-05-11 15:22:15.680 INFO  (qtp205125520-53) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.tx3-tag-cloud.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:22:15.680 INFO  (qtp205125520-58) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:22:15.681 INFO  (qtp205125520-57) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/js/dropit.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:22:15.730 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/globe_256.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:22:15.730 INFO  (qtp205125520-55) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/france_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:22:15.731 INFO  (qtp205125520-56) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/germany_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:22:15.733 INFO  (qtp205125520-54) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/img/english_640.png&contentType=image/png} status=0 QTime=0
+2017-05-11 15:22:54.674 INFO  (qtp205125520-58) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=0
+2017-05-11 15:22:55.793 INFO  (qtp205125520-57) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=0
+2017-05-11 15:22:56.539 INFO  (qtp205125520-58) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=1
+2017-05-11 15:23:40.862 INFO  (qtp205125520-55) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/browse params={} hits=7826 status=0 QTime=1
+2017-05-11 15:23:40.871 ERROR (qtp205125520-55) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-05-11 15:23:40.873 ERROR (qtp205125520-55) [   x:wolf2] o.a.s.r.VelocityResponseWriter Left side ($pivots.size()) of '>' operation has null value at VM_global_library.vm[line 124, column 23]
+2017-05-11 15:23:40.936 INFO  (qtp205125520-14) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0
+2017-05-11 15:23:40.936 INFO  (qtp205125520-55) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0
+2017-05-11 15:23:40.938 INFO  (qtp205125520-53) [   x:wolf2] o.a.s.c.S.Request [wolf2]  webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0
+2017-05-11 15:46:09.892 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1327536153
+2017-05-11 15:46:09.893 INFO  (coreCloseExecutor-28-thread-1) [   x:wolf2] o.a.s.c.SolrCore [wolf2]  CLOSING SolrCore org.apache.solr.core.SolrCore@70ab007f
+2017-05-11 15:46:09.898 INFO  (coreCloseExecutor-28-thread-2) [   x:wolf] o.a.s.c.SolrCore [wolf]  CLOSING SolrCore org.apache.solr.core.SolrCore@60054493
+2017-05-11 15:46:09.898 INFO  (coreCloseExecutor-28-thread-3) [   x:article] o.a.s.c.SolrCore [article]  CLOSING SolrCore org.apache.solr.core.SolrCore@47e59875
+2017-05-11 15:46:09.900 INFO  (coreCloseExecutor-28-thread-4) [   x:techproducts] o.a.s.c.SolrCore [techproducts]  CLOSING SolrCore org.apache.solr.core.SolrCore@18a27075
+2017-05-11 15:46:09.934 INFO  (coreCloseExecutor-28-thread-4) [   x:techproducts] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.techproducts
+2017-05-11 15:46:09.942 INFO  (coreCloseExecutor-28-thread-1) [   x:wolf2] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.wolf2
+2017-05-11 15:46:09.946 INFO  (coreCloseExecutor-28-thread-3) [   x:article] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.article
+2017-05-11 15:46:09.947 INFO  (coreCloseExecutor-28-thread-2) [   x:wolf] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.core.wolf
+2017-05-11 15:46:09.947 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for: solr.node

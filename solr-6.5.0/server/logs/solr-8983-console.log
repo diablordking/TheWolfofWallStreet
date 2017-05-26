@@ -1,0 +1,6 @@
+2017-05-22 08:43:44.729 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.14.v20161028
+2017-05-22 08:43:45.410 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 6.5.0
+2017-05-22 08:43:45.411 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2017-05-22 08:43:45.411 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /media/senolakkas/alp/nlp/solr-6.5.0
+2017-05-22 08:43:45.434 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2017-05-22T08:43:45.412Z
+2017-05-22 08:43:45.435 INFO  (main) [   ] o.a.s.s.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
